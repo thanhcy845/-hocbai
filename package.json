@@ -5,10 +5,7 @@
   "main": "api/process.js",
   "scripts": {
     "dev": "vercel dev",
-    "build": "vercel build"
-  },
-  "dependencies": {
-    "crypto": "^1.0.1"
+    "build": "echo 'No build step needed for serverless functions'"
   },
   "engines": {
     "node": "22.x"
