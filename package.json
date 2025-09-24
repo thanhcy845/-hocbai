@@ -1,13 +1,8 @@
 {
-  "name": "bypass-processor",
+  "name": "bypass-api",
   "version": "1.0.0",
-  "description": "UID Bypass API for Free Fire",
-  "main": "api/process.js",
-  "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'No build step needed for serverless functions'"
-  },
+  "type": "module",
   "engines": {
-    "node": "22.x"
+    "node": ">=18.0.0"
   }
 }
